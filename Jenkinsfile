@@ -5,6 +5,9 @@ node {
     stage('Build') {
         echo 'Build the App'
     }
+    stage('Test') {
+        echo 'Test the App'
+    }
     stage('Deploy') {
         echo 'Deploy is done'
     }
